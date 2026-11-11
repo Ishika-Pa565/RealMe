@@ -1,0 +1,30 @@
+# Environments
+venv/
+venv_ref/
+.venv/
+env/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Datasets & Weights
+data/
+models/*.pth
+models/*.pt
+models/*.h5
+
+# Reference clone
+reference/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit run cache
+.streamlit/
